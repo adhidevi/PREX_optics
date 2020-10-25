@@ -1,0 +1,494 @@
+.x Qsq_ana_cal.C(21438,"Pb4","Sep.8")
+.x grand_Qsq.C
+.q
+.x grand_Qsq.C
+.
+.q
+.x grand_Qsq.C
+.q
+.x plotThetaPhi.C(1983,"Pb2")
+.x plotThetaPhi.C(21108,"Pb2")
+.x theta.C(1983,"Pb2")
+.x theta.C(21108,"Pb2")
+.x plotMomentum.C(1983,"Pb2")
+.x plotMomentum.C(21108,"Pb2")
+.x Qsq_ana_cal.C(1983,"Pb2","Jul.24")
+.x Qsq_ana_cal.C(21108,"Pb2","Jul.24")
+.x plotThetaPhi.C(1996,"Pb2")
+.x plotThetaPhi.C(21121,"Pb2")
+.x theta.C(1996,"Pb2")
+.x theta.C(21121,"Pb2")
+.x plotMomentum.C(1996,"Pb2")
+.x plotMomentum.C(21121,"Pb2")
+.x Qsq_ana_cal.C(1996,"Pb2","Jul.24")
+.x Qsq_ana_cal.C(21121,"Pb2","Jul.24")
+.x plotThetaPhi.C(2052,"Pb10")
+.x plotThetaPhi.C(21185,"Pb10")
+.x theta.C(2052,"Pb10")
+.x theta.C(21185,"Pb10")
+.x plotMomentum.C(2052,"Pb10")
+.x plotMomentum.C(21185,"Pb10")
+.x Qsq_ana_cal.C(2052,"Pb10","Jul.31")
+.x Qsq_ana_cal.C(21185,"Pb10","Jul.31")
+.x plotThetaPhi.C(2199,"Pb7")
+.x plotThetaPhi.C(21344,"Pb7")
+.x theta.C(2199,"Pb7")
+.x theta.C(21344,"Pb7")
+.x plotMomentum.C(2199,"Pb7")
+.x plotMomentum.C(21344,"Pb7")
+.x Qsq_ana_cal.C(2199,"Pb7","Aug.29")
+.x Qsq_ana_cal.C(21344,"Pb7","Aug.29")
+.x plotThetaPhi.C(2291,"Pb7")
+.x plotThetaPhi.C(21412,"Pb7")
+.x theta.C(2291,"Pb7")
+.x theta.C(21412,"Pb7")
+.x plotMomentum.C(2291,"Pb7")
+.x plotMomentum.C(21412,"Pb7")
+.x Qsq_ana_cal.C(2291,"Pb7","Sep.3")
+.x Qsq_ana_cal.C(21412,"Pb7","Sep.3")
+.x plotThetaPhi.C(2292,"Pb8")
+.x plotThetaPhi.C(21413,"Pb8")
+.x theta.C(2292,"Pb8")
+.x theta.C(21413,"Pb8")
+.x plotMomentum.C(2292,"Pb8")
+.x plotMomentum.C(21413,"Pb8")
+.x Qsq_ana_cal.C(2292,"Pb8","Sep.3")
+.x Qsq_ana_cal.C(21413,"Pb8","Sep.3")
+.x plotThetaPhi.C(2293,"Pb9")
+.x plotThetaPhi.C(21414,"Pb9")
+.x theta.C(2293,"Pb9")
+.x theta.C(21414,"Pb9")
+.x plotMomentum.C(2293,"Pb9")
+.x plotMomentum.C(21414,"Pb9")
+.x Qsq_ana_cal.C(2293,"Pb9","Sep.3")
+.x Qsq_ana_cal.C(21414,"Pb9","Sep.3")
+.x plotThetaPhi.C(2294,"Pb10")
+.x plotThetaPhi.C(21415,"Pb10")
+.x theta.C(2294,"Pb10")
+.x theta.C(21415,"Pb10")
+.x plotMomentum.C(2294,"Pb10")
+.x plotMomentum.C(21415,"Pb10")
+.x Qsq_ana_cal.C(2294,"Pb10","Sep.3")
+.x Qsq_ana_cal.C(21415,"Pb10","Sep.3")
+.x grand_Qsq.C
+.q
+.x Qsq_ana_cal.C(21185,"Pb10","Jul.31")
+.q
+.x plotThetaPhi.C(1983,"Pb2")
+.x plotThetaPhi.C(21108,"Pb2")
+.x theta.C(1983,"Pb2")
+.x theta.C(21108,"Pb2")
+.x plotMomentum.C(1983,"Pb2")
+.x plotMomentum.C(21108,"Pb2")
+.x Qsq_ana_cal.C(1983,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21108,"Pb2","Jul.24",0.953254)
+.x plotThetaPhi.C(1996,"Pb2")
+.x plotThetaPhi.C(21121   0.953254,"Pb2")
+.x theta.C(1996,"Pb2")
+.x theta.C(21121   0.953254,"Pb2")
+.x plotMomentum.C(1996,"Pb2")
+.x plotMomentum.C(21121   0.953254,"Pb2")
+.x Qsq_ana_cal.C(1996,"Pb2","Jul.24",)
+.x Qsq_ana_cal.C(21121   0.953254,"Pb2","Jul.24",)
+.x plotThetaPhi.C(2052,"Pb10")
+.x plotThetaPhi.C(21185   0.953374,"Pb10")
+.x theta.C(2052,"Pb10")
+.x theta.C(21185   0.953374,"Pb10")
+.x plotMomentum.C(2052,"Pb10")
+.x plotMomentum.C(21185   0.953374,"Pb10")
+.x Qsq_ana_cal.C(2052,"Pb10","Jul.31",)
+.x Qsq_ana_cal.C(21185   0.953374,"Pb10","Jul.31",)
+.x plotThetaPhi.C(2199,"Pb7")
+.x plotThetaPhi.C(21344   0.953774,"Pb7")
+.x theta.C(2199,"Pb7")
+.x plotThetaPhi.C(1983,"Pb2")
+.x plotThetaPhi.C(21108,"Pb2")
+.x theta.C(1983,"Pb2")
+.x theta.C(21108,"Pb2")
+.x plotMomentum.C(1983,"Pb2")
+.x plotMomentum.C(21108,"Pb2")
+.x Qsq_ana_cal.C(1983,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21108,"Pb2","Jul.24",0.953254)
+.x plotThetaPhi.C(1996,"Pb2")
+.x plotThetaPhi.C(21121   0.953254,"Pb2")
+.x theta.C(1996,"Pb2")
+.x theta.C(21121   0.953254,"Pb2")
+.x plotMomentum.C(1996,"Pb2")
+.x plotMomentum.C(21121   0.953254,"Pb2")
+.x Qsq_ana_cal.C(1996,"Pb2","Jul.24",)
+.x Qsq_ana_cal.C(21121   0.953254,"Pb2","Jul.24",)
+.x plotThetaPhi.C(2052,"Pb10")
+.x plotThetaPhi.C(21185   0.953374,"Pb10")
+.x theta.C(2052,"Pb10")
+.x theta.C(21185   0.953374,"Pb10")
+.x plotMomentum.C(2052,"Pb10")
+.x plotMomentum.C(21185   0.953374,"Pb10")
+.x Qsq_ana_cal.C(2052,"Pb10","Jul.31",)
+.x Qsq_ana_cal.C(21185   0.953374,"Pb10","Jul.31",)
+.x plotThetaPhi.C(2199,"Pb7")
+.x plotThetaPhi.C(21344   0.953774,"Pb7")
+.x theta.C(2199,"Pb7")
+.x theta.C(21344   0.953774,"Pb7")
+.x plotMomentum.C(2199,"Pb7")
+.x plotMomentum.C(21344   0.953774,"Pb7")
+.x plotThetaPhi.C(1983,"Pb2")
+.x plotThetaPhi.C(21108,"Pb2")
+.x theta.C(1983,"Pb2")
+.x theta.C(21108,"Pb2")
+.x plotMomentum.C(1983,"Pb2")
+.x plotMomentum.C(21108,"Pb2")
+.x Qsq_ana_cal.C(1983,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21108,"Pb2","Jul.24",0.953254)
+.x plotThetaPhi.C(1996,"Pb2")
+.x plotThetaPhi.C(21121,"Pb2")
+.x theta.C(1996,"Pb2")
+.x theta.C(21121,"Pb2")
+.x plotMomentum.C(1996,"Pb2")
+.x plotMomentum.C(21121,"Pb2")
+.x Qsq_ana_cal.C(1996,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21121,"Pb2","Jul.24",0.953254)
+.x plotThetaPhi.C(2052,"Pb10")
+.x plotThetaPhi.C(21185,"Pb10")
+.x theta.C(2052,"Pb10")
+.x theta.C(21185,"Pb10")
+.x plotMomentum.C(2052,"Pb10")
+.x plotMomentum.C(21185,"Pb10")
+.x Qsq_ana_cal.C(2052,"Pb10","Jul.31",0.953374)
+.x Qsq_ana_cal.C(21185,"Pb10","Jul.31",0.953374)
+.x grand_Qsq.C("analyzer")
+.x plotThetaPhi.C(2199,"Pb7")
+.x plotThetaPhi.C(21344,"Pb7")
+.x theta.C(2199,"Pb7")
+.x theta.C(21344,"Pb7")
+.x plotMomentum.C(2199,"Pb7")
+.x plotMomentum.C(21344,"Pb7")
+.x Qsq_ana_cal.C(2199,"Pb7","Aug.29",0.953774)
+.x Qsq_ana_cal.C(21344,"Pb7","Aug.29",0.953774)
+.q
+.x plotThetaPhi.C(2291,"Pb7")
+.x plotThetaPhi.C(21412,"Pb7")
+.x theta.C(2291,"Pb7")
+.x theta.C(21412,"Pb7")
+.x plotMomentum.C(2291,"Pb7")
+.x plotMomentum.C(21412,"Pb7")
+.x Qsq_ana_cal.C(2291,"Pb7","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21412,"Pb7","Sep.3",0.953374)
+.x plotThetaPhi.C(2292,"Pb8")
+.x plotThetaPhi.C(21413,"Pb8")
+.x theta.C(2292,"Pb8")
+.x theta.C(21413,"Pb8")
+.x plotMomentum.C(2292,"Pb8")
+.x plotMomentum.C(21413,"Pb8")
+.x Qsq_ana_cal.C(2292,"Pb8","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21413,"Pb8","Sep.3",0.953374)
+.x plotThetaPhi.C(2293,"Pb9")
+.x plotThetaPhi.C(21414,"Pb9")
+.x theta.C(2293,"Pb9")
+.x theta.C(21414,"Pb9")
+.x plotMomentum.C(2293,"Pb9")
+.x plotMomentum.C(21414,"Pb9")
+.x Qsq_ana_cal.C(2293,"Pb9","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21414,"Pb9","Sep.3",0.953374)
+.x plotThetaPhi.C(2294,"Pb10")
+.x plotThetaPhi.C(21415,"Pb10")
+.x theta.C(2294,"Pb10")
+.x theta.C(21415,"Pb10")
+.x plotMomentum.C(2294,"Pb10")
+.x plotMomentum.C(21415,"Pb10")
+.x Qsq_ana_cal.C(2294,"Pb10","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21415,"Pb10","Sep.3",0.953374)
+.x grand_Qsq.C("analyzer")
+.q
+.x grand_Qsq.C
+.q
+.x grand_Qsq.C("analyzer")
+.q
+.x plotThetaPhi.C(1983,"Pb2")
+.x plotThetaPhi.C(21108,"Pb2")
+.x theta.C(1983,"Pb2")
+.x Qsq_ana_cal.C(1983,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21108,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(1996,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21121,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(2052,"Pb10","Jul.31",0.953374)
+.x Qsq_ana_cal.C(21185,"Pb10","Jul.31",0.953374)
+.x Qsq_ana_cal.C(2199,"Pb7","Aug.29",0.953774)
+.x Qsq_ana_cal.C(21344,"Pb7","Aug.29",0.953774)
+.x Qsq_ana_cal.C(2291,"Pb7","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21412,"Pb7","Sep.3",0.953374)
+.x Qsq_ana_cal.C(2292,"Pb8","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21413,"Pb8","Sep.3",0.953374)
+.x Qsq_ana_cal.C(2293,"Pb9","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21414,"Pb9","Sep.3",0.953374)
+.x Qsq_ana_cal.C(2294,"Pb10","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21415,"Pb10","Sep.3",0.953374)
+.x Qsq_ana_cal.C(1983,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21108,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(1996,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(21121,"Pb2","Jul.24",0.953254)
+.x Qsq_ana_cal.C(2052,"Pb10","Jul.31",0.953374)
+.x Qsq_ana_cal.C(21185,"Pb10","Jul.31",0.953374)
+.x Qsq_ana_cal.C(2199,"Pb7","Aug.29",0.953774)
+.x Qsq_ana_cal.C(21344,"Pb7","Aug.29",0.953774)
+.x Qsq_ana_cal.C(2291,"Pb7","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21412,"Pb7","Sep.3",0.953374)
+.x Qsq_ana_cal.C(2292,"Pb8","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21413,"Pb8","Sep.3",0.953374)
+.x Qsq_ana_cal.C(2293,"Pb9","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21414,"Pb9","Sep.3",0.953374)
+.x Qsq_ana_cal.C(2294,"Pb10","Sep.3",0.953374)
+.x Qsq_ana_cal.C(21415,"Pb10","Sep.3",0.953374)
+.x grand_Qsq.C
+.q
+.x grand_Qsq.C("analyzer")
+.q
+.x grand_Qsq.C("analyzer")
+.q
+.x grand_Qsq.C("analyzer")
+.q
+.x grand_Qsq.C("analyzer")
+.q
+.x grand_Qsq.C("calculated")
+.q
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_qsq.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_qsq.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_qsq.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_qsq.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_qsq.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_qsq.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_qsq.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_theta.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_theta.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_theta.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_theta.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_theta.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_theta.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_theta.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_theta.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_theta.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_theta.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_theta.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_theta.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_theta.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_theta.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_theta.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_theta.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_theta.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_theta.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_theta.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_theta.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_theta.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_theta.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_theta.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_theta.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_theta.C(1983,21108,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(1996,21121,"Pb2","Jul.24",0.953254)
+.x calculated_only_theta.C(2052,21185,"Pb10","Jul.31",0.953374)
+.x calculated_only_theta.C(2199,21344,"Pb7","Aug.29",0.953774)
+.x calculated_only_theta.C(2291,21412,"Pb7","Sep.3",0.953374)
+.x calculated_only_theta.C(2292,21413,"Pb8","Sep.3",0.953374)
+.x calculated_only_theta.C(2293,21414,"Pb9","Sep.3",0.953374)
+.x calculated_only_theta.C(2294,21415,"Pb10","Sep.3",0.953374)
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x calculated_only_asym.C(1983, 21108,0.953254)
+.q
+.x trigger_rate.C
+.q
+.x trigger_rate.C
+.q
+TFile *_file0 = TFile::Open("/chafs1/work1/prex_counting/QsqRootFiles/prexLHRS_2052_-1.root")
+.ls
+TSLeft->Draw("LeftT1_r:Entry$")
+TSLeft->Draw("LeftT1_r:Entry$","","*")
+.q
+.
+.q
+TFile *_file0 = TFile::Open("/chafs1/work1/prex_counting/QsqRootFiles/prexLHRS_1983_-1.root")
+TSLeft->Draw("LeftT1_r:Entry$","","*")
+.q
+.x trigger_rate.C
+.q
+.x trigger_rate.C
+.q
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.x trigger_rate.C
+.q
+.q
+.x Qsq_ana_cal.C(int 2052, TString "Pb10", TString "Jul.31", Float_t 0.953374)
+.q
+.x Qsq_ana_cal.C(2052, "Pb10", "Jul.31", 0.953374)
+.q
+.x Qsq_ana_cal.C(2052, "Pb10", "Jul.31", 0.953374)
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(21185,"Pb10")
+.q
+.x theta.C(21185,"Pb10")
+.q
+.x theta.C(21185,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x theta.C(2052,"Pb10")
+.q
+.x plotThetaPhi.C(2052,"Pb10")
+.q
+.x plotThetaPhi.C(2052,"Pb10")
+.q
+.x plotThetaPhi.C(2052,"Pb10")
+.q
+.x plotThetaPhi.C(2052,"Pb10")
+.q
+.x plotThetaPhi.C(21185,"Pb10")
+.q
+.x plotThetaPhi.C(21185,"Pb10")
+.q
+.x plotThetaPhi.C(2052,"Pb10")
+.q
+.x theta.C(1983"
+.q
+.x theta.C(1983)
+.q
+.x theta.C(1983)
+.q
+.x theta.C(1983,"Pb10")
+.q
+.x theta.C(1983,"Pb10")
+.q
+.x theta.C(1983,"Pb10")
+.q
+.x theta.C(1983,"Pb2")
+.q
+.x theta.C(1983,"Pb2")
+.q
+.x theta.C(1983,"Pb2")
+.q
+.x theta.C(2052,"Pb10")
+hl->GetMean)
+hl->GetMean()
+.x theta.C(1983,"Pb2")
+.
+.q

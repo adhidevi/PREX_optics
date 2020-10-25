@@ -1,0 +1,410 @@
+.x Accfunc.C
+.q
+.x Accfunc.C
+.q
+.x CheckACCshape.C
+.q
+.x CheckACCshape.C
+.q
+.x CheckACCshape.C
+.q
+.x CheckACCshape.C
+.q
+.x CheckACCshape.C("shift",0.5)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",1)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",3)
+.q
+.x CheckACCshape.C("smear",1)
+.q
+.x CheckACCshape.C("smear",2)
+.q
+.x CheckACCshape.C("smear",4)
+.x CheckACCshape.C("shift",0.5)
+.q
+.x CheckACCshape.C("shift",0.4)
+.q
+.x CheckACCshape.C("shift",0.3)
+.q
+.x CheckACCshape.C("shift",0.2)
+.q
+.x CheckACCshape.C("shift",0.1)
+.q
+.x CheckACCshape.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("shift",0.1)
+.q
+.x CheckVertexAsym.C("shift",0.1)
+.q
+.x CheckVertexAsym.C("shift",0.5)
+.q
+.x CheckVertexAsym.C("shift",0.4)
+.q
+.x CheckVertexAsym.C("shift",0.3)
+.q
+.x CheckVertexAsym.C("shift",0.2)
+.q
+.x CheckVertexAsym.C("shift",0.1)
+.q
+.x CheckVertexAsym.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("smear",2.0)
+.q
+.x CheckVertexAsym.C("smear",1.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckACCshape.C("smear",0)
+.q
+.x CheckACCshape.C("smear",0)
+.q
+.x CheckACCshape.C("smear",1.0)
+.q
+.x CheckACCshape.C("smear",2.0)
+.q
+.x CheckACCshape.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("smear",2.0)
+.q
+.x CheckVertexAsym.C("smear",1.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("shift",0.5)
+.q
+.x CheckVertexAsym.C("shift",0.4)
+.q
+.x CheckVertexAsym.C("shift",0.3)
+.q
+.x CheckVertexAsym.C("shift",0.2)
+.q
+.x CheckVertexAsym.C("shift",0.1)
+.q
+.x CheckVertexAsym.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("smear",2.0)
+.q
+.x CheckVertexAsym.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("smear",1.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("smear",0.0)
+.q
+.x CheckVertexAsym.C("smear",1.0)
+.q
+.x CheckVertexAsym.C("smear",2.0)
+.q
+.x CheckVertexAsym.C("smear",3.0)
+.q
+.x CheckVertexAsym.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("shift",0.1)
+.q
+.x CheckVertexAsym.C("shift",0.2)
+.
+.q
+.x CheckVertexAsym.C("shift",0.3)
+.q
+.x CheckVertexAsym.C("shift",0.4)
+.q
+.x CheckVertexAsym.C("shift",0.4)
+.q
+.x CheckVertexAsym.C("shift",0.3)
+.q
+.x CheckVertexAsym.C("shift",0.4)
+.q
+.x CheckVertexAsym.C("shift",0.5)
+.q
+.x CheckACCshape.C("smear",0.0)
+.q
+.x CheckACCshape.C("smear",0.0)
+.q
+.x CheckACCshape.C("smear",1.0)
+.q
+.x CheckACCshape.C("smear",2.0)
+.q
+.x CheckACCshape.C("smear",3.0)
+.q
+.x CheckACCshape.C("shift",0.0)
+.q
+.x CheckACCshape.C("shift",0.1)
+.q
+.x CheckACCshape.C("shift",0.2)
+.q
+.x CheckACCshape.C("shift",0.3)
+.q
+.x CheckACCshape.C("shift",0.4)
+.q
+.x CheckACCshape.C("shift",0.5)
+.q
+.x CheckVertexAsym.C("smear",-1.0)
+.q
+.x CheckVertexAsym.C("smear",-2.0)
+.q
+.x CheckVertexAsym.C("smear",-3.0)
+.q
+.x CheckVertexAsym.C("shift",-0.1)
+.q
+.x CheckVertexAsym.C("shift",-0.2)
+.q
+.x CheckVertexAsym.C("shift",-0.3)
+.q
+.x CheckVertexAsym.C("shift",-0.4)
+.q
+.x CheckVertexAsym.C("shift",-0.5)
+.q
+.x CheckACCshape.C("gaus",0.0)
+.q
+.x CheckACCshape.C("gaus",0.0)
+.q
+.x CheckACCshape.C("box",0.0)
+.q
+.x CheckACCshape.C("box",0.0)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.4)
+.q
+.x CheckACCshape.C("box",0.3)
+.q
+.x CheckACCshape.C("box",0.2)
+.q
+.x CheckACCshape.C("box",0.1)
+.q
+.x CheckACCshape.C("box",0.0)
+.q
+.x CheckACCshape.C("gaus",0.0)
+.q
+.x CheckACCshape.C("gaus",0.1)
+.q
+.x CheckACCshape.C("gaus",0.2)
+.q
+.x CheckACCshape.C("gaus",0.3)
+.q
+.x CheckACCshape.C("gaus",0.4)
+.q
+.x CheckACCshape.C("gaus",0.5)
+.q
+.x CheckVertexAsym.C("box",0.0)
+.q
+.x CheckVertexAsym.C("box",0.0)
+.q
+.x CheckVertexAsym.C("box",0.0)
+.q
+.x CheckVertexAsym.C("box",0.5)
+.q
+.x CheckVertexAsym.C("box",0.5)
+.q
+.x CheckVertexAsym.C("box",-0.5)
+.q
+.x CheckVertexAsym.C("box",-0.5)
+.q
+.x CheckVertexAsym.C("gaus",-0.5)
+.q
+.x CheckVertexAsym.C("gaus",0.5)
+.q
+.x CheckVertexAsym.C("gaus",0.5)
+.q
+.x CheckVertexAsym.C("gaus",-0.5)
+.q
+.x CheckVertexAsym.C("gaus",-0.5)
+.q
+.x CheckVertexAsym.C("gaus",-0.4)
+.q
+.x CheckVertexAsym.C("gaus",-0.3)
+.q
+.x CheckVertexAsym.C("gaus",-0.2)
+.q
+.x CheckVertexAsym.C("gaus",-0.1)
+.q
+.x CheckVertexAsym.C("gaus",0.0)
+.q
+.x CheckVertexAsym.C("gaus",0.1)
+.q
+.x CheckVertexAsym.C("gaus",0.2)
+.q
+.x CheckVertexAsym.C("gaus",0.3)
+.q
+.x CheckVertexAsym.C("gaus",0.4)
+.q
+.x CheckVertexAsym.C("gaus",0.5)
+.q
+.x CheckVertexAsym.C("box",0.5)
+.q
+.x CheckVertexAsym.C("box",0.4)
+.q
+.x CheckVertexAsym.C("box",0.3)
+.q
+.x CheckVertexAsym.C("box",0.2)
+.q
+.x CheckVertexAsym.C("box",0.1)
+.q
+.x CheckVertexAsym.C("box",0.0)
+.q
+.x CheckVertexAsym.C("box",-0.1)
+.q
+.x CheckVertexAsym.C("box",-0.2)
+.q
+.x CheckVertexAsym.C("box",-0.3)
+.q
+.x CheckVertexAsym.C("box",-0.4)
+.q
+.x CheckVertexAsym.C("box",-0.5)
+.q
+.x Accfunc.C
+.q
+.x Accfunc.C
+.q
+.x CheckACCshape.C("gaus",0.0)
+.q
+.x CheckACCshape.C("gaus",0.1)
+.q
+.x CheckACCshape.C("gaus",0.2)
+.q
+.x CheckACCshape.C("gaus",0.3)
+.q
+.x CheckACCshape.C("gaus",0.4)
+.q
+.x CheckACCshape.C("gaus",0.5)
+.q
+.x CheckACCshape.C("box",0.5)
+.q
+.x CheckACCshape.C("box",0.4)
+.q
+.x CheckACCshape.C("box",0.4)
+.q
+.x CheckACCshape.C("box",0.3)
+.q
+.x CheckACCshape.C("box",0.2)
+.q
+.x CheckACCshape.C("box",0.1)
+.q
+.x CheckACCshape.C("box",0.0)
+.q
+.x CheckACCshape.C("shift",0.0)
+.q
+.x CheckACCshape.C("shift",0.1)
+.q
+.x CheckACCshape.C("shift",0.2)
+.q
+.x CheckACCshape.C("shift",0.3)
+.q
+.x CheckACCshape.C("shift",0.4)
+.q
+.x CheckACCshape.C("shift",0.5)
+.q
+.x CheckVertexAsym.C("shift",0.5)
+.q
+.x CheckVertexAsym.C("shift",0.4)
+.q
+.x CheckVertexAsym.C("shift",0.3)
+.q
+.x CheckVertexAsym.C("shift",0.2)
+.q
+.x CheckVertexAsym.C("shift",0.1)
+.q
+.x CheckVertexAsym.C("shift",0.0)
+.q
+.x CheckVertexAsym.C("shift",-0.1)
+.q
+.x CheckVertexAsym.C("shift",-0.2)
+.q
+.x CheckVertexAsym.C("shift",-0.3)
+.q
+.x CheckVertexAsym.C("shift",-0.4)
+.q
+.x CheckVertexAsym.C("shift",-0.5)
+.q
+.x CheckVertexAsym.C("box",0.5)
+.q
+.x CheckVertexAsym.C("box",0.4)
+.q
+.x CheckVertexAsym.C("box",0.3)
+.q
+.x CheckVertexAsym.C("box",0.2)
+.q
+.x CheckVertexAsym.C("box",0.1)
+.q
+.x CheckVertexAsym.C("box",0.0)
+.q
+.x CheckVertexAsym.C("box",-0.1)
+.q
+.x CheckVertexAsym.C("box",-0.2)
+.q
+.x CheckVertexAsym.C("box",-0.3)
+.q
+.x CheckVertexAsym.C("box",-0.4)
+.q
+.x CheckVertexAsym.C("box",-0.5)
+.q
+.x CheckVertexAsym.C(gaus,0.5)
+.x CheckVertexAsym.C(gaus,0.4)
+.x CheckVertexAsym.C(gaus,0.3)
+.x CheckVertexAsym.C(gaus,0.2)
+.x CheckVertexAsym.C(gaus,0.1)
+.x CheckVertexAsym.C(gaus,0.0)
+.x CheckVertexAsym.C(gaus,-0.1)
+.x CheckVertexAsym.C(gaus,-0.2)
+.x CheckVertexAsym.C(gaus,-0.3)
+.x CheckVertexAsym.C(gaus,-0.4)
+.x CheckVertexAsym.C(gaus,-0.5)
+.x CheckVertexAsym.C("gaus",0.5)
+.x CheckVertexAsym.C("gaus",0.4)
+.x CheckVertexAsym.C("gaus",0.3)
+.x CheckVertexAsym.C("gaus",0.2)
+.x CheckVertexAsym.C("gaus",0.1)
+.x CheckVertexAsym.C("gaus",0.0)
+.x CheckVertexAsym.C("gaus",-0.1)
+.x CheckVertexAsym.C("gaus",-0.2)
+.x CheckVertexAsym.C("gaus",-0.3)
+.x CheckVertexAsym.C("gaus",-0.4)
+.x CheckVertexAsym.C("gaus",-0.5)
+TFile *_file0 = TFile::Open("/chafs1/work1/prex_counting/Qsq_Oct22/prexRHRS_21185_-1.root")
+.q
