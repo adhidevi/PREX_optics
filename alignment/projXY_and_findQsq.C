@@ -291,7 +291,7 @@ void projXY_and_findQsq(int run, TString target, TString date, double Ebeam){
       EdgeBinP = i;
       }
       }
-      double peakpos = momfit->GetParameter(1);;
+      double peakpos = momfit->GetParameter(1);
       double efact = (Ebeam-0.001)/peakpos;
 
       double EdgeP = hp1->GetBinCenter(EdgeBinP);
@@ -380,7 +380,8 @@ void projXY_and_findQsq(int run, TString target, TString date, double Ebeam){
       
       cQsq->SaveAs(Form("./temp1/qsq_analysis_run%d.pdf",run));
       ofstream outfile("./TextFiles/qsquare_diagnostic_quantitiesL.csv",ios_base::app);
-      outfile<<run<<"\t"<<target<<"\t"<<date<<"\t"<<upADCcut<<"\t"<<fitEP->GetParameter(1)<<"\t"<<QEdge<<"\t"<<peakpos<<"\t"<<EdgeP<<"\t"<<Q2adc->GetMean()<<"\t"<<Q2adc->GetRMS()<<"\t"<<Q2xcut->GetMean()<<"\t"<<Q2xcut->GetRMS()<<"\t"<<Q2xylocut->GetMean()<<"\t"<<Q2xylocut->GetRMS()<<"\t"<<Q2xyhicut->GetMean()<<"\t"<<Q2xyhicut->GetRMS()<<endl;
+    //  outfile<<run<<"\t"<<target<<"\t"<<date<<"\t"<<upADCcut<<"\t"<<fitEP->GetParameter(1)<<"\t"<<QEdge<<"\t"<<peakpos<<"\t"<<EdgeP<<"\t"<<Q2adc->GetMean()<<"\t"<<Q2adc->GetRMS()<<"\t"<<Q2xcut->GetMean()<<"\t"<<Q2xcut->GetRMS()<<"\t"<<Q2xylocut->GetMean()<<"\t"<<Q2xylocut->GetRMS()<<"\t"<<Q2xyhicut->GetMean()<<"\t"<<Q2xyhicut->GetRMS()<<endl;
+      outfile<<run<<"\t"<<target<<"\t"<<date<<"\t"<<upADCcut<<"\t"<<fitEP->GetParameter(1)<<"\t"<<QEdge<<"\t"<<peakpos<<"\t"<<EdgeP<<"\t"<<Q2adc->GetMean()<<"\t"<<Q2adc->GetRMS()<<"\t"<<Q2adc->GetEntries()<<"\t"<<Q2xcut->GetMean()<<"\t"<<Q2xcut->GetRMS()<<"\t"<<Q2xcut->GetEntries()<<"\t"<<Q2pcut->GetMean()<<"\t"<<Q2pcut->GetRMS()<<"\t"<<Q2pcut->GetEntries()<<"\t"<<Q2xylocut->GetMean()<<"\t"<<Q2xylocut->GetRMS()<<"\t"<<Q2xylocut->GetEntries()<<"\t"<<Q2xyhicut->GetMean()<<"\t"<<Q2xyhicut->GetRMS()<<"\t"<<Q2xyhicut->GetEntries()<<endl;
       outfile.close();
     }else{
       //RHRS
@@ -738,7 +739,7 @@ void projXY_and_findQsq(int run, TString target, TString date, double Ebeam){
       cQsq->SaveAs(Form("./temp1/qsq_analysis_run%d.pdf",run));
 
       ofstream outfile("./TextFiles/qsquare_diagnostic_quantitiesR.csv",ios_base::app);
-      outfile<<run<<"\t"<<target<<"\t"<<date<<"\t"<<upADCcut<<"\t"<<fitEP->GetParameter(1)<<"\t"<<QEdge<<"\t"<<peakpos<<"\t"<<EdgeP<<"\t"<<Q2adc->GetMean()<<"\t"<<Q2adc->GetRMS()<<"\t"<<Q2xcut->GetMean()<<"\t"<<Q2xcut->GetRMS()<<"\t"<<Q2xylocut->GetMean()<<"\t"<<Q2xylocut->GetRMS()<<"\t"<<Q2xyhicut->GetMean()<<"\t"<<Q2xyhicut->GetRMS()<<endl;
+      outfile<<run<<"\t"<<target<<"\t"<<date<<"\t"<<upADCcut<<"\t"<<fitEP->GetParameter(1)<<"\t"<<QEdge<<"\t"<<peakpos<<"\t"<<EdgeP<<"\t"<<Q2adc->GetMean()<<"\t"<<Q2adc->GetRMS()<<"\t"<<Q2adc->GetEntries()<<"\t"<<Q2xcut->GetMean()<<"\t"<<Q2xcut->GetRMS()<<"\t"<<Q2xcut->GetEntries()<<"\t"<<Q2pcut->GetMean()<<"\t"<<Q2pcut->GetRMS()<<"\t"<<Q2pcut->GetEntries()<<"\t"<<Q2xylocut->GetMean()<<"\t"<<Q2xylocut->GetRMS()<<"\t"<<Q2xylocut->GetEntries()<<"\t"<<Q2xyhicut->GetMean()<<"\t"<<Q2xyhicut->GetRMS()<<"\t"<<Q2xyhicut->GetEntries()<<endl;
       outfile.close();
 }
 }

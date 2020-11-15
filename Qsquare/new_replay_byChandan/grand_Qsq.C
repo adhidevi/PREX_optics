@@ -1,38 +1,42 @@
-void grand_Qsq(TString which){
+void grand_Qsq(){
 	TGaxis::SetMaxDigits(3);
 	gStyle->SetOptFit(0110);
 	gStyle->SetLabelSize(0.05,"x");
-	// which == either analyzer or "calculated"
-	ifstream infileL(Form("./TextFiles/qsq_%sL.csv",which.Data()));
-	ifstream infileR(Form("./TextFiles/qsq_%sR.csv",which.Data()));
+	ifstream infileL("./TextFiles/qsquare_diagnostic_quantitiesL_Oct25.csv");
+	ifstream infileR("./TextFiles/qsquare_diagnostic_quantitiesR_Oct25.csv");
 	if(!infileL||!infileR){
 	cout<<"No input file! Missing file"<<endl;
 	exit(0);
 	}
-	string dateL, dateR, targetL, targetR;
-	Float_t runL, runR, qsqL, qsqR, errL, errR;
+	string dateL, dateR, tgtL, tgtR;
+	double runL, adc_cL, x_peakL, x_cutL, p_peakL, p_cutL, qsq_adcL, rms_adcL, ent_adcL, qsq_xL, rms_xL, ent_xL, qsq_pL, rms_pL, ent_pL, qsq_xyloL, rms_xyloL, ent_xyloL, qsq_xyhiL, rms_xyhiL, ent_xyhiL;
+	double runR, adc_cR, x_peakR, x_cutR, p_peakR, p_cutR, qsq_adcR, rms_adcR, ent_adcR, qsq_xR, rms_xR, ent_xR, qsq_pR, rms_pR, ent_pR, qsq_xyloR, rms_xyloR, ent_xyloR, qsq_xyhiR, rms_xyhiR, ent_xyhiR;
+
 	vector<string>DateL, DateR, TargetL, TargetR;
 	vector<Float_t> RunL, RunR, QsqL, QsqR, ErrR, ErrL;
-	while(infileL>>dateL>>targetL>>runL>>qsqL>>errL){
+	infileL.ignore(10000,'\n');
+	while(infileL>>runL>>tgtL>>dateL>>adc_cL>>x_peakL>>x_cutL>>p_peakL>>p_cutL>>qsq_adcL>>rms_adcL>>ent_adcL>>qsq_xL>>rms_xL>>ent_xL>>qsq_pL>>rms_pL>>ent_pL>>qsq_xyloL>>rms_xyloL>>ent_xyloL>>qsq_xyhiL>>rms_xyhiL>>ent_xyhiL){
 	DateL.push_back(dateL);
-	TargetL.push_back(targetL);
+	TargetL.push_back(tgtL);
 	RunL.push_back(runL);
-	QsqL.push_back(qsqL);
-	ErrL.push_back(errL);
+	QsqL.push_back(qsq_adcL);
+	ErrL.push_back(rms_adcL/TMath::Sqrt(ent_adcL));
 	}
 	infileL.close();
 
-	while(infileR>>dateR>>targetR>>runR>>qsqR>>errR){
+	infileR.ignore(10000,'\n');
+	while(infileR>>runR>>tgtR>>dateR>>adc_cR>>x_peakR>>x_cutR>>p_peakR>>p_cutR>>qsq_adcR>>rms_adcR>>ent_adcR>>qsq_xR>>rms_xR>>ent_xR>>qsq_pR>>rms_pR>>ent_pR>>qsq_xyloR>>rms_xyloR>>ent_xyloR>>qsq_xyhiR>>rms_xyhiR>>ent_xyhiR){
 	DateR.push_back(dateR);
-	TargetR.push_back(targetR);
+	TargetR.push_back(tgtR);
 	RunR.push_back(runR);
-	QsqR.push_back(qsqR);
-	ErrR.push_back(errR);
+	QsqR.push_back(qsq_adcR);
+	ErrR.push_back(rms_adcR/TMath::Sqrt(ent_adcR));
 	}
 	infileR.close();
 
 	int nptL = RunL.size();
 	int nptR = RunR.size();
+	cout<<"Counted: "<<nptL<<" runs in LHRS and "<<nptR<<" runs in RHRS"<<endl;
 
 	Float_t EntryL[nptL];
 	Float_t EntryR[nptR];
@@ -42,13 +46,13 @@ void grand_Qsq(TString which){
 	EntryR[ipt] = ipt;
 	
 	TCanvas* c1 = new TCanvas("c1","c1",1000,600);
-	c1->SetTopMargin(0.05);
-	c1->SetBottomMargin(0.15);
+//	c1->SetTopMargin(0.05);
+//	c1->SetBottomMargin(0.15);
 	gPad->SetGridx();
 	TGraphErrors* grL = new TGraphErrors(nptL,EntryL,&QsqL[0],0,&ErrL[0]);
 	grL->SetMarkerStyle(20);
 	grL->Draw("AP");
-	grL->Fit("pol0");
+	grL->Fit("pol0","W");
 	grL->SetLineColor(4);
 	grL->SetMarkerColor(4);
 	TF1* fitL = grL->GetFunction("pol0");
@@ -58,77 +62,47 @@ void grand_Qsq(TString which){
 	grR->SetMarkerStyle(29);
 	grR->SetMarkerSize(1.5);
 	grR->Draw("AP");
-	grR->Fit("pol0");
+	grR->Fit("pol0","W");
 	grR->SetLineColor(2);
 	grR->SetMarkerColor(2);
 	TF1* fitR = grR->GetFunction("pol0");
 	fitR->SetLineColor(2);
 	
-	TMultiGraph* mg = new TMultiGraph("mg","mg");
+	TMultiGraph* mg = new TMultiGraph("mg","PREX-2 Q^{2} over time;Run;Q^{2} (GeV/c)^{2}");
 	mg->Add(grL,"P");
 	mg->Add(grR,"P");
 	mg->Draw("AP");
-	mg->SetTitle(";;Q^{2} (GeV/c)^{2}");
 	mg->GetYaxis()->CenterTitle();
-	mg->GetYaxis()->SetRangeUser(0.00630,0.00655);
+	mg->GetYaxis()->SetRangeUser(0.00633,0.00652);
 	gPad->Update();
 
-	mg->GetXaxis()->Set(nptR,-0.5,nptR-0.5);
-	for(int ipt=0;ipt<nptR;ipt++)
-	mg->GetXaxis()->SetBinLabel(ipt+1,Form("#splitline{#color[4]{%5.0f}}{#splitline{#color[2]{%5.0f}}{#splitline{%s}{%s}}}",RunL[ipt],RunR[ipt],TargetL[ipt].c_str(),DateL[ipt].c_str()));
-//	mg->GetXaxis()->SetLabelSize(0.031);
-	mg->GetXaxis()->SetLabelSize(0.036);
+	mg->GetXaxis()->Set(nptL,-0.5,nptL-0.5);
+	TString x_label[] = {"#splitline{#color[4]{1983}}{#color[2]{21108}}","#splitline{#color[4]{1996}}{#color[2]{21121}}","#splitline{#color[4]{2052}}{#color[2]{21185}}","#splitline{#color[4]{2199}}{#color[2]{21344}}","#color[4]{2219}","#color[4]{2292}","#color[4]{2293}","#color[4]{2294}"};
+	for(int ipt=0;ipt<nptL;ipt++){
+	mg->GetXaxis()->SetBinLabel(ipt+1,Form("%s",x_label[ipt].Data()));
+	}
+	mg->GetXaxis()->SetLabelSize(0.055);
 	gPad->Modified();
-	TLegend* lag = new TLegend(0.12,0.60,0.20,0.70);
+	TLegend* lag = new TLegend(0.15,0.50,0.25,0.60);
 	lag->SetFillStyle(0);
 	lag->AddEntry(grL,"LHRS","ep");
 	lag->AddEntry(grR,"RHRS","ep");
 	lag->Draw();
-	TLatex latex;
-	latex.SetNDC();
-	latex.SetTextSize(0.05);
-	latex.SetTextColor(1);
-	latex.DrawLatex(0.25,0.60,"PREX-2 Q^{2} for various targets and dates");
-	latex.DrawLatex(0.25,0.55,Form("Error bars are errors on mean"));
-	latex.SetTextColor(4);
-	latex.SetTextSize(0.025);
-	latex.DrawLatex(0.9,0.125,"L run");
-	latex.SetTextColor(2);
-	latex.DrawLatex(0.9,0.10,"R run");
-	latex.SetTextColor(1);
-	latex.DrawLatex(0.9,0.075,"Target");
-	latex.SetTextColor(1);
-	latex.DrawLatex(0.9,0.05,"Date");
 	gPad->Update();
 	TPaveStats* statL = (TPaveStats*)grL->FindObject("stats");
 	TPaveStats* statR = (TPaveStats*)grR->FindObject("stats");
-	statL->SetY2NDC(0.45);
-	statL->SetY1NDC(0.40);
+	statL->SetY2NDC(0.60);
+	statL->SetY1NDC(0.55);
 	statL->SetX2NDC(0.90);
 	statL->SetX1NDC(0.65);
 	statL->SetTextColor(4);
 	
-	statR->SetY2NDC(0.50);
-	statR->SetY1NDC(0.45);
+	statR->SetY2NDC(0.55);
+	statR->SetY1NDC(0.50);
 	statR->SetX2NDC(0.90);
 	statR->SetX1NDC(0.65);
 	statR->SetTextColor(2);
 	gPad->Modified();
-	c1->SaveAs(Form("./plots/grand_Qsq_%s.pdf",which.Data()));
-/*
-	TCanvas* c2 = new TCanvas("c2","c2",600,600);
-	TH2F* qsqLR = new TH2F("qsqLR","Qsq LHRS vs Qsq RHRS;RHRS;LHRS",100,0.00633,0.006365,100,0.00647,0.00652);
-	qsqLR->GetYaxis()->SetTitleOffset(1.3);
-	qsqLR->GetXaxis()->SetLabelSize(0.03);
-	qsqLR->SetMarkerStyle(20);
-	Float_t* LQ2 = QsqL.data();
-	Float_t* RQ2 = QsqR.data();
-	for(int iptL=0;iptL<nptL;iptL++){
-	qsqLR->Fill(RQ2[iptL],LQ2[iptL]);
-	}
-	qsqLR->Draw();
-	c2->SaveAs("./plots/grand_Qsq_LvsR.pdf");
-	gSystem->Exec(Form("pdfunite ./plots/grand_Qsq.pdf ./plots/grand_Qsq_LvsR.pdf ./plots/good_runs_Qsq.pdf"));
-	gSystem->Exec(Form("rm -rf ./plots/grand_Qsq.pdf ./plots/grand_Qsq_LvsR.pdf"));
-*/
+	c1->SaveAs(Form("./plots/grand_Qsq.pdf"));
+
 }
